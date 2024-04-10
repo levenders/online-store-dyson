@@ -1,0 +1,7 @@
+export const primaryBlack = 'var(--primary-black)'
+export const primaryRed = 'var(--primary-red)'
+export const primaryGray = 'var(--primary-gray)'
+export const white = 'var(--white)'
+export const gray = 'var(--gray)'
+export const agreeGreen = 'var(--agree-green)'
+export const disagreeRed = 'var(--disagree-red)'
