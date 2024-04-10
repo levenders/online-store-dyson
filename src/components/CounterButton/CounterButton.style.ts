@@ -24,6 +24,7 @@ export const StyledCounterButton = styled.button<ICounterButtonProps>`
   border-radius: 3px;
   padding: 19px 35px;
   font-size: 24px;
+  background-color: transparent;
 `
 export const StyledCounterIconButton = styled.button<IIconCounterButtonProps>`
   border: none;

@@ -23,11 +23,11 @@ export const CounterButton = ({ className, ...props }: ICounterButtonProps) => {
         disabled={count > 1 ? false : true}
         onClick={removeProductHandler}
       >
-        <span></span>
+        <span />
       </StyledCounterIconButton>
       {count}
       <StyledCounterIconButton icon="plus" onClick={addProductHandler}>
-        <span></span>
+        <span />
       </StyledCounterIconButton>
     </StyledCounterButton>
   )
