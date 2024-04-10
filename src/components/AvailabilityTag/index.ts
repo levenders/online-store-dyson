@@ -1,0 +1,1 @@
+export { AvailabilityTag } from './AvailabilityTag'

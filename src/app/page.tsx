@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, CounterButton } from '@/components'
+import { AvailabilityTag, Button, CounterButton } from '@/components'
 import { Tag } from '@/components'
 
 export default function Home() {
@@ -18,6 +18,8 @@ export default function Home() {
       <Tag variant="ghostBlack">фен щетка дайсон</Tag>
       <Tag variant="ghostRed">фен щетка дайсон</Tag>
       <CounterButton />
+      <AvailabilityTag variant="inStock" />
+      <AvailabilityTag variant="outOfStock" />
     </>
   )
 }
